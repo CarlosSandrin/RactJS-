@@ -1,0 +1,15 @@
+.container-navbar {
+  width: 100vh;
+  height: 10vh;
+  background-color: lightseagreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
