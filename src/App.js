@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Nabvar />
-      <ItemListContainer />
+      <ItemListContainer saludar={"Bienvenido!!"} />
       <Footer />
     </div>
   );

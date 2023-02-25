@@ -1,9 +1,12 @@
-import ShoppingCartCheckoutIcon  from "@mui/icons-material/ShoppingCartCheckout";
+import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
 
 const CartWidget = () => {
-  return <div>
-    <svg></svg>
-    </div>;
+  return (
+    <div>
+      <span>0</span>
+      <ShoppingCartCheckoutIcon />
+    </div>
+  );
 };
 
 export default CartWidget;
