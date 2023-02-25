@@ -1,9 +1,8 @@
-export function SaludarUsuario(props) {
-  return <h1>Bienvenido!!</h1>;
-}
+
 
 const ItemListContainer = () => {
-  return <div></div>;
+  return <div>Bienvenido!!</div>;
+  
 };
 
 export default ItemListContainer;
