@@ -1,11 +1,21 @@
 import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
+import { Link } from "react-router-dom";
 
-const CartWidget = () => {
+const CartWidget = ({ numero }) => {
   return (
-    <div>
-      <span>0</span>
-      <ShoppingCartCheckoutIcon />
-    </div>
+    <Link to="/cart">
+      <div className="container-cart">
+        <ShoppingCartCheckoutIcon
+          style={{
+            fontSize: "2rem",
+            color: "#e1d4c7",
+          }}
+        />
+        <div className="bubble-counter">
+          <span>0</span>
+        </div>
+      </div>
+    </Link>
   );
 };
 
