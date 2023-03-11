@@ -2,6 +2,7 @@ import { ProductionQuantityLimitsTwoTone } from "@mui/icons-material";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { products } from "../../productsMock";
+
 import ItemList from "../ItemList/ItemList";
 
 const ItemListContainer = () => {

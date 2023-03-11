@@ -14,7 +14,7 @@ const Item = ({ element }) => {
   return (
     <Card
       sx={{
-        width: 345,
+        width: 280,
         height: 350,
         backgroundColor: "black",
         color: "white",
@@ -24,7 +24,7 @@ const Item = ({ element }) => {
       }}
     >
       <CardMedia
-        sx={{ height: 160, backgroundColor: "whitesmoke" }}
+        sx={{ height: 175, backgroundColor: "whitesmoke" }}
         image={element.img}
         title="green iguana"
       />
