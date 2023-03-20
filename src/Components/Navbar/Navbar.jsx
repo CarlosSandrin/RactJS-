@@ -16,7 +16,8 @@ const Nabvar = ({ children }) => {
             maxHeight: "10px",
           }}
         >
-          <img className={styles.logo}
+          <img
+            className={styles.logo}
             src="https://res.cloudinary.com/dyc9of3yj/image/upload/v1678291441/logo_yqoxql.png"
             alt=""
           />
@@ -26,11 +27,14 @@ const Nabvar = ({ children }) => {
           <Link to="/" className={styles.navbarItem}>
             Todos
           </Link>
-          <Link to="/category/accion" className={styles.navbarItem}>
+          <Link to="/category/Plataforma" className={styles.navbarItem}>
             Plataforma
           </Link>
-          <Link to="/category/deporte" className={styles.navbarItem}>
-            Deportivo
+          <Link to="/category/Deporte" className={styles.navbarItem}>
+            Deporte
+          </Link>
+          <Link to="/category/Pelea" className={styles.navbarItem}>
+            Pelea
           </Link>
         </ul>
         <CartWidget numero={numero} />
