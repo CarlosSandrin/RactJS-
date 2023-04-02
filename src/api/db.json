@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "CrashBandicoot N'Sane Trilogy",
+      "img": "https://res.cloudinary.com/dyc9of3yj/image/upload/v1678540868/ImagenesMias/Crash_apsmv5.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Fifa 19",
+      "img": "https://res.cloudinary.com/dyc9of3yj/image/upload/v1678540833/ImagenesMias/fifa_z7zfow.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Mortal Kombat X",
+      "img": "https://res.cloudinary.com/dyc9of3yj/image/upload/v1678540818/ImagenesMias/mortal_xqavzb.jpg"
+    },
+    {
+      "id": "4",
+      "title": "DragonBall SenoVerse xv",
+      "img": "https://res.cloudinary.com/dyc9of3yj/image/upload/v1678540866/ImagenesMias/dragonball_ssedi5.jpg"
+    }
+  ]
+}

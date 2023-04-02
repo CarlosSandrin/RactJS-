@@ -1,7 +1,5 @@
 import React from "react";
-
 import styles from "./Item.module.css";
-
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -38,7 +36,7 @@ const Item = ({ element }) => {
       <CardActions>
         <Link to={`/item/${element.id}`}>
           <Button size="small" variant="contained" color="primary">
-            Ver detalle
+            Ver Más...
           </Button>
         </Link>
       </CardActions>

@@ -35,4 +35,22 @@ export const products = [
     category: "Pelea",
     img: "https://res.cloudinary.com/dyc9of3yj/image/upload/v1678540866/ImagenesMias/dragonball_ssedi5.jpg",
   },
+  {
+    id: 5,
+    title: "God of War: RAGNAROK",
+    price: 24600,
+    stock: 10,
+    description: "Juego de Plataforma y Acción",
+    category: "Plataforma y Acción",
+    img: "https://res.cloudinary.com/dyc9of3yj/image/upload/v1680131348/ImagenesMias/GOW-RK_ag0cpy.webp",
+  },
+  {
+    id: 6,
+    title: "Call of Duty WARZONE Last Stand",
+    price: 19350,
+    stock: 7,
+    description: "Juego de Batalla Campal",
+    category: "Plataforma",
+    img: "https://res.cloudinary.com/dyc9of3yj/image/upload/v1678540830/ImagenesMias/callduty_b6dyye.jpg",
+  },
 ];
